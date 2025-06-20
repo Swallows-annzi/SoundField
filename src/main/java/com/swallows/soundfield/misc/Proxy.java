@@ -14,7 +14,7 @@ import org.apache.logging.log4j.Logger;
 public class Proxy {
 
     public static void preInit(FMLPreInitializationEvent event) {
-        SoundField.LOGGER.info("欢迎来到“{}”的音乐世界！", Tags.MOD_NAME);
+        SoundField.LOGGER.info("欢迎使用“{}”！", Tags.MOD_NAME);
         SoundFieldConfig.ConfigLoader(event.getModConfigurationDirectory());
     }
 
